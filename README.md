@@ -18,8 +18,9 @@ Useful for analyzing how Hacker News displays newly submitted content.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/hackernews-sort-checker.git
-cd hackernews-sort-checker
+git clone https://github.com/Mosal27/Webscraping-with-Playwright.git
+cd Webscraping-with-Playwright
+
 ```
 
 ### 2. Install dependencies
@@ -66,12 +67,6 @@ Or if not:
 Articles are NOT sorted from newest to oldest
 sortedDates[i] 1722783891000 sortedDates[i + 1] 1722783972000
 ```
-
-## 👤 Author
-
-Your Name (Optional)
-
-## 📝 License
 
 MIT
 
