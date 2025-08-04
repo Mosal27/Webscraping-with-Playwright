@@ -65,11 +65,5 @@ Or if not:
 
 ```text
 Articles are NOT sorted from newest to oldest
-sortedDates[i] 1722783891000 sortedDates[i + 1] 1722783972000
 ```
 
-MIT
-
----
-
-Let me know if you want to include badges, a screenshot, or publish instructions for GitHub/npm!
