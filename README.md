@@ -1,19 +1,19 @@
-# 🧪 Hacker News Article Sort Checker
+# Hacker News Article Sort Checker
 
 This Node.js script uses [Playwright](https://playwright.dev/) to scrape **Hacker News - Newest** articles and verify whether they are sorted from **newest to oldest** based on their timestamps.
 
-## 📋 Description
+## Description
 
 The script launches a Chromium browser, visits [Hacker News "newest"](https://news.ycombinator.com/newest), collects the **timestamps** of the articles (up to 100), and checks if the articles are sorted **chronologically (newest first)**.
 
 Useful for analyzing how Hacker News displays newly submitted content.
 
-## 🚀 Technologies Used
+## Technologies Used
 
 * [Node.js](https://nodejs.org/)
 * [Playwright](https://playwright.dev/) (Headless browser automation)
 
-## ⚙️ Installation & Running
+## Installation & Running
 
 ### 1. Clone the repository
 
@@ -43,7 +43,7 @@ node index.js
 
 > The browser will launch (not headless), scrape the timestamps, and log whether the articles are sorted from newest to oldest.
 
-## 🧠 How It Works
+##  How It Works
 
 * Navigates to Hacker News "newest" page
 * Scrapes timestamps from `span.age` elements
@@ -51,7 +51,7 @@ node index.js
 * Converts timestamps to milliseconds
 * Checks if the list is sorted in descending order
 
-## 🧪 Sample Output
+##  Sample Output
 
 ```text
 Dates count: 30
