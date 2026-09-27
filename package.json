@@ -1,17 +1,16 @@
 {
-  "name": "qa_wolf_take_home",
+  "name": "hn-sort-check",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright check that Hacker News /newest is sorted newest to oldest",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "node test.js",
+    "check": "node index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "playwright": "^1.53.2"
-  },
-  "devDependencies": {
-    "@playwright/test": "^1.39.0",
-    "@types/node": "^20.8.9"
   }
 }
